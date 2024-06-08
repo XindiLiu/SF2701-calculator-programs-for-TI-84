@@ -93,3 +93,17 @@ Computes the price of an European call or put option under the Black Scholes mar
 
 ### BIMPVOL
 Estimates the volatility of the Black Scholes market model using the price of a European call option.
+
+### CZR2ZP
+Computes zero bond prices from term structure.
+
+### CBP2ZR
+Computes the term structure from price of zero coupon bonds and fixed coupon bonds.
+
+### CINTDEVS
+There are multiple functions
+- Zero coupon bond price: Compute the price of a zero coupon bond with maturity $T$ and strike $K$
+- Fixed coupon bond price: Compute the price of a fixed coupon bond with maturity $T$, strike $K$ and coupon $c$
+- FRA price: Compute the price of forward rate agreement (FRA) with continuous forward rate $r$ where money is borrowed at $T_1$ and returned at $T_2$.
+- Fixed coupon rate: Computes the continuous spot rate $r$ of a fixed coupon bound given maturity $T$, strike $K$ and price of the fixed coupon bond $P$.
+- FRA rate: Computes the continuous forward rate $r$ of a forward rate agreement.
