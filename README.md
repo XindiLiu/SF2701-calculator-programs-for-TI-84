@@ -104,6 +104,6 @@ Computes the term structure from price of zero coupon bonds and fixed coupon bon
 There are multiple functions
 - Zero coupon bond price: Compute the price of a zero coupon bond with maturity $T$ and strike $K$
 - Fixed coupon bond price: Compute the price of a fixed coupon bond with maturity $T$, strike $K$ and coupon $c$
-- FRA price: Compute the price of forward rate agreement (FRA) with continuous forward rate $r$ where money is borrowed at $T_1$ and returned at $T_2$.
+- FRA price: Compute the price of forward rate agreement (FRA) with continuous rate $r$ where money is borrowed at $T_1$ and returned at $T_2$.
 - Fixed coupon rate: Computes the continuous spot rate $r$ of a fixed coupon bound given maturity $T$, strike $K$ and price of the fixed coupon bond $P$.
-- FRA rate: Computes the continuous forward rate $r$ of a forward rate agreement.
+- FRA rate: Computes the continuous rate $r$ of a forward rate agreement.
