@@ -45,7 +45,7 @@ Computes the price tree of the risky asset in a binomial model with discrete pro
 - $\delta$: The dividends rate per time step. Set to 0 if there is no dividends.
 
 #### Output
-The price tree of the risky asset, starting from $t=0$. Each row represents one scenario in the format $\\{S_{t-} / S_t \\}$. "---" represents that this time step is done and you need to press enter to start the next time step.
+The price tree of the risky asset, starting from $t=0$. Each row represents one scenario in the format $\\{S_{t-}, S_t \\}$. "---" represents that this time step is done and you need to press enter to start the next time step.
 
 ### APRICEX
 Computes the price tree of an European/American call/put option in a binomial model with discrete proportional dividends.
@@ -89,7 +89,7 @@ For American put options, exercise will always happend after dividend payment.
 - $\delta$: The dividends rate per time step. Set to 0 if there is no dividends.
 
 #### Output
-The replicating portfolio of the selected option, starting from $t=T$. Each row represents one scenario in the format $\\{x_t / y_t \\}$.
+The replicating portfolio of the selected option, starting from $t=T$. Each row represents one scenario in the format $\\{V^h_t, x_t,  y_t \\}$.
 "---" represents that this time step is done and you need to press enter to start the next time step.
 
 ## Example part 1
