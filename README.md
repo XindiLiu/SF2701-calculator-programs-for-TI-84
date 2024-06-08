@@ -18,10 +18,6 @@ All programs starting with "A" are for the binomial models which is usually the 
 
 Convert continuous compounding interest rate to the variables used in the binomial model. 
 #### Input variables
-- $\Delta t$: The length of time step in years.
-- $\sigma$: The volatility per annum.
-- $r$: The continuouns compounding interest rate per annum.
-
 | Variable | Description |
 | -- | ----------- |
 | $\Delta t$ | Length of time step in years. |
@@ -40,10 +36,6 @@ Computes the price tree of the risky asset in a binomial model with discrete pro
 | $s$ | Initial price of the risky asset. |
 | $\delta$ | Dividends rate per time step. Set to 0 if there is no dividends. |
 
-- $T$: The number of periods.
-- $s$: The initial price of the risky asset.
-- $\delta$: The dividends rate per time step. Set to 0 if there is no dividends.
-
 #### Output
 The price tree of the risky asset, starting from $t=0$. Each row represents one scenario in the format $\\{S_{t-}, S_t \\}$. "---" represents that this time step is done and you need to press enter to start the next time step.
 
@@ -59,10 +51,6 @@ For American put options, exercise will always happend after dividend payment.
 | $s$ | Initial price of the risky asset. |
 | $K$ | Strike. |
 | $\delta$ | Dividends rate per time step. Set to 0 if there is no dividends. |
-
-- $T$: The number of periods.
-- $s$: The initial price of the risky asset.
-- $\delta$: The dividends rate per time step. Set to 0 if there is no dividends.
 
 #### Output
 The price tree of the selected option, starting from $t=T$. Each row represents one scenario. 
@@ -83,10 +71,6 @@ For American put options, exercise will always happend after dividend payment.
 | $T$ | Number of periods. |
 | $s$ | Initial price of the risky asset. |
 | $K$ | Strike. |
-
-- $T$: The number of periods.
-- $s$: The initial price of the risky asset.
-- $\delta$: The dividends rate per time step. Set to 0 if there is no dividends.
 
 #### Output
 The replicating portfolio of the selected option, starting from $t=T$. Each row represents one scenario in the format $\\{V^h_t, x_t,  y_t \\}$.
