@@ -31,8 +31,6 @@ Convert continuous compounding interest rate to the variables used in the binomi
 #### Output
 $u$, $d$, $q$, $1+R$.
 
-#### Example
-
 ### APRICEST
 Computes the price tree of the risky asset in a binomial model with discrete proportional dividends. 
 #### Input variables
@@ -95,5 +93,12 @@ The replicating portfolio of the selected option, starting from $t=T$. Each row 
 "---" represents that this time step is done and you need to press enter to start the next time step.
 
 ## Example part 1
+Example question: Homework 1 spring 2018 1(a)
+![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/e4d93a6c-5992-4501-bd85-5efe1d94d267)
 
-
+| Variable | Description |
+| -- | -- |
+|![!](/examples/2018HW1-1a-ACOMP1.png) ![!](/examples/2018HW1-1a-ACOMP2.png)|![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/4a1826e6-dd2f-488f-a143-73835051a0c2)|
+|![!](/examples/2018HW1-1a-APRICEST1.png) ![!](/examples/2018HW1-1a-APRICEST2.png) ![!](/examples/2018HW1-1a-APRICEST3.png) ![!](/examples/2018HW1-1a-APRICEST4.png) ![!](/examples/2018HW1-1a-APRICEST5.png)|![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/f3fa88a8-1384-48ed-b4b8-e239ca45dbc6)|
+|![!](/examples/2018HW1-1a-APRICEX1.png) ![!](/examples/2018HW1-1a-APRICEX2.png) ![!](/examples/2018HW1-1a-APRICEX3.png) ![!](/examples/2018HW1-1a-APRICEX4.png) ![!](/examples/2018HW1-1a-APRICEX5.png) ![!](/examples/2018HW1-1a-APRICEX6.png)|![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/92543a94-c384-47ea-bf98-a4245f41edb5)|
+|![!](/examples/2018HW1-1a-APORT1.png) ![!](/examples/2018HW1-1a-APORT2.png) ![!](/examples/2018HW1-1a-APORT3.png) ![!](/examples/2018HW1-1a-APORT4.png) ![!](/examples/2018HW1-1a-APORT5.png)|![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/c2ad4e78-b8fe-433f-8ca1-b16a0c772859)|
