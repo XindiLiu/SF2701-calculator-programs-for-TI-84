@@ -1,6 +1,6 @@
 # SF2701 TI-84 calculator programs
 
-This repository contains TI-84 calculator programs for the course SF2701 Financial Mathematics, Basic Course at KTH Royal Institute of Technology. The programs are highly aligned to the exam questions and could save a lot of time for you in your exam. All progrmas are my original work.
+This repository contains TI-84 calculator programs for the course SF2701 Financial Mathematics, Basic Course at KTH Royal Institute of Technology. The programs are highly aligned to the exam questions and could save a lot of time for you in your exam. All progrmas are my original work. Use the programs on your own risk, the author takes no resonsibility.
 
 ## How to use
 1. Download **TI Connect™ CE** from the [official website](https://education.ti.com/en/products/computer-software/ti-connect-ce-sw) and install it on your computer.
