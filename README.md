@@ -131,3 +131,11 @@ b) Use CINTDEVS, FRA rate
 
 ![!](/examples/20200527-3B-CINTDEVS1.png)
 ![!](/examples/20200527-3B-CINTDEVS2.png)
+
+Answer: $0.049$
+
+c) Use CINTDEVS, Swap price
+
+![!](/examples/20200527-3C-CINTDEVS1.png)
+
+Answer: $-15468$
