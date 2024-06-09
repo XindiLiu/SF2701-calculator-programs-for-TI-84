@@ -76,16 +76,7 @@ For American put options, exercise will always happend after dividend payment.
 The replicating portfolio of the selected option, starting from $t=T$. Each row represents one scenario in the format $\\{V^h_t, x_t,  y_t \\}$.
 "---" represents that this time step is done and you need to press enter to start the next time step.
 
-### Example part 1
-Example question: Homework 1 spring 2018 1(a)
-![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/e4d93a6c-5992-4501-bd85-5efe1d94d267)
 
-| Variable | Description |
-| -- | -- |
-|![!](/examples/2018HW1-1a-ACOMP1.png) ![!](/examples/2018HW1-1a-ACOMP2.png)|![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/4a1826e6-dd2f-488f-a143-73835051a0c2)|
-|![!](/examples/2018HW1-1a-APRICEST1.png) ![!](/examples/2018HW1-1a-APRICEST2.png) ![!](/examples/2018HW1-1a-APRICEST3.png) ![!](/examples/2018HW1-1a-APRICEST4.png) ![!](/examples/2018HW1-1a-APRICEST5.png)|![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/f3fa88a8-1384-48ed-b4b8-e239ca45dbc6)|
-|![!](/examples/2018HW1-1a-APRICEX1.png) ![!](/examples/2018HW1-1a-APRICEX2.png) ![!](/examples/2018HW1-1a-APRICEX3.png) ![!](/examples/2018HW1-1a-APRICEX4.png) ![!](/examples/2018HW1-1a-APRICEX5.png) ![!](/examples/2018HW1-1a-APRICEX6.png)|![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/92543a94-c384-47ea-bf98-a4245f41edb5)|
-|![!](/examples/2018HW1-1a-APORT1.png) ![!](/examples/2018HW1-1a-APORT2.png) ![!](/examples/2018HW1-1a-APORT3.png) ![!](/examples/2018HW1-1a-APORT4.png) ![!](/examples/2018HW1-1a-APORT5.png)|![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/c2ad4e78-b8fe-433f-8ca1-b16a0c772859)|
 
 
 ### BBS
@@ -110,5 +101,33 @@ There are multiple functions
 - Swap price: Computes the value of a swap viewed from the part paying fixed coupon. $R$ is the simple annual swap rate; $Tmax-t$ is the number of remaining payments. $r(t,T)$ from $T=t+1$: zero rates for the remaining payments.
 - Swap rate: Computes the swap rate of a swap quoted per annum using simple annual compounding.
 
+## Examples
+### Homework 1 spring 2018 1(a)
+![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/e4d93a6c-5992-4501-bd85-5efe1d94d267)
 
-- 
+| Progam screenshot | Official solution |
+| -- | -- |
+|![!](/examples/2018HW1-1a-ACOMP1.png) ![!](/examples/2018HW1-1a-ACOMP2.png)|![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/4a1826e6-dd2f-488f-a143-73835051a0c2)|
+|![!](/examples/2018HW1-1a-APRICEST1.png) ![!](/examples/2018HW1-1a-APRICEST2.png) ![!](/examples/2018HW1-1a-APRICEST3.png) ![!](/examples/2018HW1-1a-APRICEST4.png) ![!](/examples/2018HW1-1a-APRICEST5.png)|![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/f3fa88a8-1384-48ed-b4b8-e239ca45dbc6)|
+|![!](/examples/2018HW1-1a-APRICEX1.png) ![!](/examples/2018HW1-1a-APRICEX2.png) ![!](/examples/2018HW1-1a-APRICEX3.png) ![!](/examples/2018HW1-1a-APRICEX4.png) ![!](/examples/2018HW1-1a-APRICEX5.png) ![!](/examples/2018HW1-1a-APRICEX6.png)|![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/92543a94-c384-47ea-bf98-a4245f41edb5)|
+|![!](/examples/2018HW1-1a-APORT1.png) ![!](/examples/2018HW1-1a-APORT2.png) ![!](/examples/2018HW1-1a-APORT3.png) ![!](/examples/2018HW1-1a-APORT4.png) ![!](/examples/2018HW1-1a-APORT5.png)|![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/c2ad4e78-b8fe-433f-8ca1-b16a0c772859)|
+
+### Exam 2020-05-27 3
+![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/e987043f-fd61-4883-b52c-c1ac5b0e2bd2)
+
+a) Use CBP2ZR
+
+![!](/examples/20200527-3A-CBP2ZR1.png)
+![!](/examples/20200527-3A-CBP2ZR2.png)
+![!](/examples/20200527-3A-CBP2ZR3.png)
+![!](/examples/20200527-3A-CBP2ZR4.png)
+![!](/examples/20200527-3A-CBP2ZR5.png)
+![!](/examples/20200527-3A-CBP2ZR6.png)
+![!](/examples/20200527-3A-CBP2ZR7.png)
+
+Answer: $r(0, 1) = 0.030, r(0, 2) = 0.035, r(0, 3) = 0.040$
+
+b) Use CINTDEVS, FRA rate
+
+![!](/examples/20200527-3B-CINTDEVS1.png)
+![!](/examples/20200527-3B-CINTDEVS2.png)
