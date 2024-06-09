@@ -140,10 +140,14 @@ Answer: $0.049$
 
 Answer: $-15468$
 
-### Exam 2020-08-13 3a)-b)
-![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/e21240bd-cdfa-4c6d-a451-d8c804382962)
+### Exam 2021-06-02 3a)-b)
+![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/066c3462-54e8-4356-a6a1-bc43fb957027)
+
 
 #### a) Use CZR2ZP
+![!](/examples/20210602-3a-CZR2ZP1.png) \
+Answer: $p(0, 1) = 0.985, p(0, 2) = 0.965, p(0, 3) = 0.942$
+
 
 
 .
