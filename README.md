@@ -115,7 +115,7 @@ There are multiple functions
 ### Exam 2020-05-27 3
 ![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/e987043f-fd61-4883-b52c-c1ac5b0e2bd2)
 
-a) Use CBP2ZR
+#### a) Use CBP2ZR
 
 ![!](/examples/20200527-3A-CBP2ZR1.png)
 ![!](/examples/20200527-3A-CBP2ZR2.png)
@@ -127,15 +127,25 @@ a) Use CBP2ZR
 
 Answer: $r(0, 1) = 0.030, r(0, 2) = 0.035, r(0, 3) = 0.040$
 
-b) Use CINTDEVS, FRA rate
+#### b) Use CINTDEVS, FRA rate
 
 ![!](/examples/20200527-3B-CINTDEVS1.png)
 ![!](/examples/20200527-3B-CINTDEVS2.png)
 
 Answer: $0.049$
 
-c) Use CINTDEVS, Swap price
+#### c) Use CINTDEVS, Swap price
 
 ![!](/examples/20200527-3C-CINTDEVS1.png)
 
 Answer: $-15468$
+
+### Exam 2020-08-13 3a)-b)
+![image](https://github.com/XindiLiu/SF2701-calculator-programs-for-TI-84/assets/84523198/e21240bd-cdfa-4c6d-a451-d8c804382962)
+
+#### a) Use CZR2ZP
+
+
+.
+
+
