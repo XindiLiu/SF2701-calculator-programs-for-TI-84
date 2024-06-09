@@ -7,7 +7,9 @@ This repository contains TI-84 calculator programs for the course SF2701 Financi
 2. Follow the instructions to transfer the programs to your calculator.
 3. On your calculator, press **PRGM** to display the **PRGM EXEC** menu. The programs in your calculator will appear in this menu. Select the program you want to use and press **ENTER**.
 4. Enter the value of variables of your question. See specific instructions for the programs below. 
-5. Get the answer. 
+5. Get the answer.
+
+The program modifies and use variables in the calculator. It is best that you donnt manually change value of any variable.
 
 ## Program 
 All programs starting with "A" are for the binomial models which is usually the first exam quesion.
@@ -100,6 +102,11 @@ There are multiple functions
 - FRA rate: Computes the continuous rate $r$ of a forward rate agreement.
 - Swap price: Computes the value of a swap viewed from the part paying fixed coupon. $R$ is the simple annual swap rate; $Tmax-t$ is the number of remaining payments. $r(t,T)$ from $T=t+1$: zero rates for the remaining payments.
 - Swap rate: Computes the swap rate of a swap quoted per annum using simple annual compounding.
+
+Notes: 
+- `CZR2ZP` and `CBP2ZR` stores the zero coupon bond prices and spot rates in the list variable `ZCBP` respective `ZCBR`, these lists are used by `CINTDEVS`. So you need to use `CZR2ZP` or `CBP2ZR` before using `CINTDEVS`. The only exception is `Swap price` in `CINTDEVS`, where you need to provide a new term structure, since this is usually the case in exam questions.
+- The above three programs assumes that $T=1,2,3,\ldots$. If you are given a term structure in other formats the programs might not work correctly.
+- Be aware of the diffrence between spot rate, simple rate, forward rate...
 
 ## Examples
 ### Homework 1 spring 2018 1(a)
