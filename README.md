@@ -107,3 +107,8 @@ There are multiple functions
 - FRA price: Compute the price of forward rate agreement (FRA) with continuous rate $r$ where money is borrowed at $T_1$ and returned at $T_2$.
 - Fixed coupon rate: Computes the continuous spot rate $r$ of a fixed coupon bound given maturity $T$, strike $K$ and price of the fixed coupon bond $P$.
 - FRA rate: Computes the continuous rate $r$ of a forward rate agreement.
+- Swap price: Computes the value of a swap viewed from the part paying fixed coupon. $R$ is the simple annual swap rate; $Tmax-t$ is the number of remaining payments. $r(t,T)$ from $T=t+1$: zero rates for the remaining payments.
+- Swap rate: Computes the swap rate of a swap quoted per annum using simple annual compounding.
+
+
+- 
