@@ -145,7 +145,7 @@ Answer: $-15468$
 
 
 #### a) Use CZR2ZP
-![!](/examples/20210602-3a-CZR2ZP1.png) \
+![!](/examples/20210602-3a-CZR2ZP1.png) 
 Answer: $p(0, 1) = 0.985, p(0, 2) = 0.965, p(0, 3) = 0.942$
 
 
